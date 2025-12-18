@@ -445,10 +445,10 @@ footer {
 
 @media (max-width: 768px) {
     .navbar {
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 0;
         padding-left: 10px;
-        padding-right: 10px;
+        padding-right: 0px;
         padding-bottom: 10px;
         border-bottom: 1px #A6A6A6 solid ;
         flex-wrap: wrap;
@@ -456,6 +456,12 @@ footer {
     .Enterprise {
     transform: translateY(0px);
  
+    }
+    .pricing {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 10px;
     }
     .navbar-options {
         display: flex;
