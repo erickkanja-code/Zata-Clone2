@@ -1,18 +1,34 @@
-# React + Vite
+# Zata Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A modern React landing page inspired by Zata Rwanda’s official website, built with Vite.**  
 
-Currently, two official plugins are available:
+This project showcases a fully responsive React front-end with clean design, smooth interactions, and a simple developer-friendly setup. Perfect for demonstrating React skills in a real-world style project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## React Compiler
+[View Live Site on Netlify](https://YOUR_NETLIFY_URL_HERE)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Features
 
-Note: This will impact Vite dev & build performances.
+- Responsive navigation bar with a hamburger menu  
+- Hero section with call-to-action buttons  
+- Interactive cards with hover effects  
+- Gradient background with subtle accent colors  
+- SPA routing ready (React Router DOM)  
+- Easy integration for future components  
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Front-end UI library  
+- **Vite** – Build tool and development server  
+- **CSS** – Styling (vanilla CSS)  
+- **React Router DOM** – SPA routing  
+- **Netlify** – Deployment  
+
+## Installation / Running Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/erickkanja-code/Zata-Clone2.git
+cd Zata-Clone2
