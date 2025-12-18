@@ -11,7 +11,7 @@ const Layout = () => {
       setIsOpen(!isOpen);
     }
 
-    const options= ['Home', 'Get Invoice App', 'Pricing', 'API Docs'];
+    const options= [{url: '', text: 'Home'}, {url: 'https://play.google.com/store/apps/details?id=com.zata.app&pcampaignid=web_share', text: 'Get Invoice App'}, {url: 'https://docs.zata.rw/', text: 'API Docs'}];
 
 
 

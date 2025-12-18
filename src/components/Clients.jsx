@@ -1,10 +1,10 @@
 import React from 'react'
-import client6 from './client6.png'
-import client5 from './client5.webp'
-import client4 from './client4.png'
-import client3 from './client3.png'
-import client2 from './client2.webp'
-import client  from './client.webp'
+import client6 from '../graphics/client6.png'
+import client5 from '../graphics/client5.webp'
+import client4 from '../graphics/client4.png'
+import client3 from '../graphics/client3.png'
+import client2 from '../graphics/client2.webp'
+import client  from '../graphics/client.webp'
 
 const Clients = () => {
   return (

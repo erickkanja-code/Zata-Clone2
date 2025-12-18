@@ -1,6 +1,6 @@
 import React from 'react'
-import line from './line.svg'
-import Play from './Play.png'
+import line from '../graphics/line.svg'
+import Play from '../graphics/Play.png'
 import Logo from './Logo'
 
 const Hero = () => {
@@ -12,10 +12,7 @@ const Hero = () => {
       <p className='hero-paragraph' id='hero-subhead2'>Integrate fast, stay compliant, and keep your workflows moving</p>
       <div className='hero-buttons'>
         <button className='signup-button'>Sign Up</button>
-        <div className='docs-button'>
-          <img id='play' src={Play} alt="play button icon" />
-          <button id='docs'>Docs</button>
-        </div>
+
       </div>
      
     </section>
