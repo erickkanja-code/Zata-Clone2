@@ -1,0 +1,34 @@
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at left center,
+      rgba(56, 142, 60, 0.35),
+      transparent 60%
+    ),
+    radial-gradient(
+      circle at right center,
+      rgba(56, 142, 60, 0.35),
+      transparent 60%
+    ),
+    #ffffff;}
+
+  
+@media (max-width: 768px) {
+body {
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at left center,
+      rgba(56, 142, 60, 0.25),
+      transparent 100%
+    ),
+    radial-gradient(
+      circle at right center,
+      rgba(56, 142, 60, 0.25),
+      transparent 100%
+    ),
+    #ffffff;}
+  
+  }

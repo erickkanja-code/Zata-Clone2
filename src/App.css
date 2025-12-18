@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hamburger-icon {
+    display: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.buttonsandoptions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-options {
+    /* margin-left: 600px; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 600; 
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #A6A6A6;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.logopng {
+    max-width: 30px;
+}
+
+#zata {
+    width: 77px; 
+    height: 30px; 
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 600; 
+    font-size: 40px; 
+    color: #000000;
+
+}
+
+.buttons  .login-button {
+    width: 77px; 
+    height: 30px;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 600; 
+    font-size: 16px; 
+    line-height: 1.5;
+    color: #A6A6A6;
+    border: none;
+    background-color: transparent;
+}
+
+.signup-button {
+    
+    border: none;
+    background-color: #388e3c;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    width: 77px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+#Home {
+    color: black;
+}
+
+.hero {
+    margin-top: 120px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#hero-title {
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 800; 
+    font-size: 80px; 
+    color: #000000;
+}
+
+#hero-image {
+    width: 80%;
+    max-width: 580px;
+    
+}
+
+.hero-paragraph {
+    line-height: 1.5;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-size: 16px; 
+    color: #000000;
+}
+
+#hero-subhead1 {
+    font-weight: 800;
+}
+
+
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+.docs-button {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+#play {
+    max-width: 30px;
+}
+#docs {
+    background-color: transparent;
+    border: none;
+    color:black;
+    font-weight: 1000;
+}
+.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 190px;
+}
+
+.clients-title {
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 50px; 
+    color: #000000;
+}
+
+.client-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    color: grey;
+    flex-wrap: wrap;
+}
+
+.client-logo {
+    max-width: 180px;
+    filter: grayscale(100%);
+}
+
+.client-logo:hover {
+    filter: grayscale(0%);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: space-around;
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px #A6A6A6 solid ;
+        flex-wrap: wrap;
+    }
+    .navbar-options {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+        background:
+        radial-gradient(
+        circle at left center,
+        rgba(56, 142, 60, 0.35),
+        transparent 60%
+        ),
+        radial-gradient(
+        circle at right center,
+        rgba(56, 142, 60, 0.35),
+        transparent 60%
+        ),
+        #ffffff;
+        color: black;
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        right: 0px;
+        z-index: 100;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttonsandoptions {
+        display: none;
+    }
+    .hamburger-icon {
+        /* padding-right: 20px; */
+        margin-right: 0px;
+        padding-top: 10px;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        width: 30px;
+        height: 30px;
+    }
+    .hero {
+        margin-top: 50px;
+    }
+    #hero-title {
+        font-weight: 800; 
+        font-size: 35px; 
+    }
+    .hero-paragraph {
+        font-size: 14px;
+    }
+    #hero-subhead2 {
+        text-align: center;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .client-logos {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clients-title {
+        font-size: 25px;
+        font-weight: 17.5px;
+        text-align: center;
+    }
+
+    main {
+        gap:40px;
+    }
+
+    .client-logo {
+        filter: grayscale(0%);
+    }
+}
+
+
