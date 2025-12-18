@@ -173,7 +173,7 @@ ul {
 main {
     display: flex;
     flex-direction: column;
-    gap: 190px;
+    gap: 120px;
 }
 
 .clients-title {
@@ -201,6 +201,108 @@ main {
 .client-logo:hover {
     filter: grayscale(0%);
 }
+
+.support {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+
+.left-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.left-container:hover #left-paragraph1 {
+    color:#388e3c;
+}
+
+.right-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.support-card {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: flex-start;
+    gap: 20px;
+    border: transparent;
+    box-shadow: 0, 0, 0, 0;
+    transform: translateY(0px);
+    padding: 20px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease, border 0.3s ease;
+}
+
+.support-card:hover {
+    border: rgba(0, 0, 0, 0.1) solid 1px;
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-6px);
+}
+
+#support1 {
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 35px; 
+    color: #000000;
+}
+
+
+#support2 {
+    line-height: 1.5;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-size: 16px; 
+    color: #000000;
+    text-align:left;
+}
+
+.support-icons {
+    width: 40px;
+    padding-top: 8px;
+}
+
+.support-card:hover #support1 {
+    color: #388e3c;
+}
+
+.support-card:hover {
+    color: #388e3c;
+}
+#left-paragraph1 {
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 50px; 
+    color: #000000;
+}
+
+#left-paragraph2 {
+    line-height: 1.5;
+    font-family: 'Inter'; 
+    font-style: normal; 
+    font-size: 16px; 
+    color: #000000;
+}
+
+
+
 
 @media (max-width: 768px) {
     .navbar {
@@ -290,6 +392,46 @@ main {
 
     .client-logo {
         filter: grayscale(0%);
+    }
+
+    #left-paragraph1 {
+        font-size: 25px;
+        font-weight: 17.5px;
+        text-align: center; 
+    }
+
+    .left-container {
+        gap: 30px;
+    }
+
+    #left-paragaph2 {
+       text-align: center; 
+
+    }
+    .right-container {
+        gap: 10px;
+    }
+    .support {
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 10px;
+    }
+    .support-paragraphs {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .support-card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    #support1 {
+        text-align: center;
+    }
+    #support2 {
+        text-align: center;
     }
 }
 
